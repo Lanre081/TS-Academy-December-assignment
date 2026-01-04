@@ -1,16 +1,82 @@
+body{
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: #f9fafb;
+  line-height: 1.6;
 
+}
+
+main{
+  margin: 40px;
+}
+.logo{
+  width: 60px;
+  margin-left: 30px;
+}
+
+
+.intro-section{
+  
+}
+.intro-section h2{
+  color: rgb(68, 68, 189);
+}
+.headers{
+   color: rgb(68, 68, 189);
+} 
+
+.btn{
+  display: flex;
+  padding: 10px;
+  gap: 20px;
+}
+
+.btn button{
+  width: 110px;
+  height: 35px;
+  border: none;
+  font-size: larger;
+  color: white;
+  background-color: rgb(20, 108, 138);
+}
+
+.btn span{
+  text-decoration: underline;
+  color: rgb(83, 83, 188);
+  font-size: larger;
+}
+
+
+.fig-section{
+  width: 600px;
+  height: 400px;
+  
+}
 
 
 table, th, td {
+     width: 100px;
      border: 1px solid black; 
      border-collapse: collapse;
+     
 }
 
 th, td {
-    padding: 5px; 
+    padding: 8px; 
+    width: 10px;
     text-align: center;
   }
 
-tr{
-    column-span:px;
+th{
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f9fafb;
+}
+
+.name-mail{
+  display: flex;
+  
 }
