@@ -76,7 +76,68 @@ tr:hover {
   background-color: #f9fafb;
 }
 
+
+
+  .required {
+    color: red;
+    font-weight: bold;
+  }
 .name-mail{
   display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-bottom: 40px;
   
+  
+}
+
+.Fullname{
+  
+}
+
+.Fullname input{
+  width: 300px;
+  height: 23px;
+
+}
+.Email{
+
+}
+.Email input{
+  width: 300px;
+  height: 23px;
+
+}
+
+.contact-info{
+  display: flex;
+  flex-direction: row;
+  gap: 43px;
+  margin-bottom: 40px;
+  
+}
+
+#state{
+  width: 300px;
+  height: 30px;
+
+}
+
+.contact input{
+  width: 300px;
+  height: 23px;
+
+}
+
+textarea{
+  width: 800px;
+  height: 100px;
+}
+
+.big-textarea{
+  margin-bottom: 50px;
+}
+
+.means-contact input{
+  gap: 30px;
 }

@@ -143,15 +143,26 @@
                <p>If you will like to talk to us direcly, kindly fill this form accordingly and make sure you submit the required details.</p>
                <div>
                 <div class="name-mail">
-                    <label>Fullname</label> 
-                    <input type="text" placeholder="Fullname">
-
-                    <label>Email</label>
-                    <input type="text" placeholder="tajudeenahmadolanrewaju@gmail.com">
+                    <div class="Fullname">
+                    <label>
+                         Full Name <span class="required">*</span>
+                    </label><br>
+                    <input type="text" placeholder="Fullname" required>
+                    </div>
+                    
+                    <div class="Email">
+                    <label>
+                        Email <span class="required">*</span>
+                    </label><br>
+                    <input type="text" placeholder="tajudeenahmadolanrewaju@gmail.com" required>
+                    </div>
                 </div>
-                <div>
-                    <label>City</label>
-                    <select name="" id="">
+                <div class="contact-info">
+                    <div class="city">
+                    <label>
+                        City <span class="required">*</span>
+                    </label><br>
+                    <select name="" id="state" required>
                         <option value="">Lagos</option>
                         <option value="">Ibadan</option>
                         <option value="">Abuja</option>
@@ -159,23 +170,32 @@
                         <option value="">Kano</option>
                         <option value="">Warri</option>
                         <option value="">Kogi</option>
-                        <option value="">Bauchi</option>
+                        <option value="">Bauch</option>
                         <option value="">Sapele</option>
                         <option value="">Lokoja</option>
                         <option value="">Kaduna</option>
                     </select>
-                    <label>Phone Number</label>
-                    <input type="number" placeholder="enter a valid phone number">
+                    </div>
+                    <div class="contact">
+                    <label>
+                        Phone Number <span class="required">*</span>
+                    </label><br>
+                    <input type="number" placeholder="enter a valid phone number" required>
+                    </div>
                 </div>
                </div>
             </section>
-            <section>
-                <p>Message</p>
-                <textarea name="Message" id="" placeholder="Type text here..."></textarea>
+
+            <!-- CONTACT -->
+            <section class="big-textarea">
+                <p>
+                    Message <span class="required">*</span>
+                </p>
+                <textarea name="Message" id="" placeholder="Type text here..." required></textarea>
             </section>
             <!-- how to contact -->
              <section>
-                <div>
+                <div class="means-contact">
                 <p>How should we contact you</p>
                  <input type="radio">Phone 
                  <input type="radio">Email
@@ -191,7 +211,7 @@
              </section>
             </form>
 
-            <!-- fAbout -->
+            <!--About -->
              <section>
                 <h4 class="headers">About</h4>
                 <ul>
