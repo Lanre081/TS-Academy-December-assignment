@@ -138,6 +138,44 @@ textarea{
   margin-bottom: 50px;
 }
 
+.means-contact{
+
+}
+
 .means-contact input{
-  gap: 30px;
+  
 } 
+
+.ads{
+  margin-bottom: 40px;
+}
+
+.submit-btn{
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 5px;
+  border: none;
+  background-color: rgb(20, 108, 138);
+  color: white;
+}
+
+.greater{
+  padding-left: 25px;
+  
+}
+
+.about ul li{
+  line-height: 30px;
+}
+
+
+.foot{
+  display: flex;
+  justify-content: space-between;
+}
+
+.priv{
+  display: flex;
+  gap: 25px;
+}
